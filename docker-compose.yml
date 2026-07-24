@@ -1,0 +1,11 @@
+services:
+  taka-note-api:
+    build: .
+    container_name: taka-note-api
+    ports:
+      - "8000:8000"
+    environment:
+      MODEL_PATH: models/best.pt
+      DEVICE: cpu
+      CONFIDENCE_THRESHOLD: "0.25"
+    restart: unless-stopped
