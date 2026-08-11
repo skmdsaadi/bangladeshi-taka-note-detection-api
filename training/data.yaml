@@ -1,0 +1,18 @@
+path: E:/bangladeshi-taka-note-detection-api/training/dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: 1000_Tk
+  1: 100_Tk
+  2: 10_Tk
+  3: 200_Tk
+  4: 20_Tk
+  5: 2_Tk
+  6: 2_Tk_Coin
+  7: 500_Tk
+  8: 50_Tk
+  9: 5_Tk
+  10: 5_Tk_Coin

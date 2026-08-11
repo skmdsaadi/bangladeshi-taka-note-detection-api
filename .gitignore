@@ -1,0 +1,26 @@
+﻿# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environment
+.env
+
+# Training generated results
+runs/
+
+# Do not upload the full training dataset
+training/dataset/
+
+# Pretrained base model
+yolo11n.pt
+
+# Generated prediction output
+outputs/
+
+# VS Code / Windows
+.vscode/
+Thumbs.db
+.DS_Store
